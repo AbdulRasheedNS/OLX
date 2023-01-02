@@ -44,7 +44,7 @@ function Header() {
           <span>{user ? `Welcome ${user.displayName}` : <span className='loginlogout' onClick={()=>{history.push('/login')}}>Login </span> }</span>
           <hr />
         </div>
-          {user && <span className='loginlogout' onClick={()=>{
+          {user && <span className='logout' onClick={()=>{
             console.log(firebase);
             firebase.auth().signOut();
             history.push('/')

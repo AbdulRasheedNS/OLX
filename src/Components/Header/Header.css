@@ -24,6 +24,7 @@
   border: 2px solid #002f34;
   border-radius: 4px;
   background-color: white;
+  margin-right: 1rem;
 }
 
 .placeSearch ::selection {
@@ -47,6 +48,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-right: 1rem;
 }
 
 .productSearch .input {
@@ -84,6 +86,7 @@
   height: 48px;
   display: flex;
   align-items: center;
+  margin-right: 1rem;
 }
 
 .language span {
@@ -93,7 +96,7 @@
   white-space: normal;
   text-overflow: ellipsis;
   font-weight: bolder;
-  margin-right: 5px;
+  margin-right: 1rem;
 }
 
 
@@ -110,6 +113,7 @@
   margin: 0;
   background-color: black;
   height: 2px;
+  margin-right: 1rem;
 }
 
 .loginPage a{
@@ -120,8 +124,9 @@
   position: relative;
   cursor: pointer;
 }
-.loginlogout{
+.logout{
   cursor: pointer;
+  margin-right: 1rem;
 }
 
 .sellMenu .all {
@@ -152,6 +157,7 @@
 }
 .brandName{
   cursor: pointer;
+  margin-right: 1rem;
 }
 
 /* .sellMenu .sellMenuContent svg {

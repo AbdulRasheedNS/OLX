@@ -4,7 +4,7 @@ import React  from 'react'
     return(
         <svg
                 width="16px"
-                height="16px"
+                height="22px"
                 viewBox="0 0 1024 1024"
                 data-aut-id="icon"
                 className

@@ -5,7 +5,7 @@ import React from 'react'
         width={104}
         height={48}
         viewBox="0 0 1603 768"
-        className="_3V9PS"
+        className="sellbutton _3V9PS"
       >
         <g>
           <path
