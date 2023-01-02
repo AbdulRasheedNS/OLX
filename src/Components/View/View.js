@@ -1,4 +1,3 @@
-import { fireEvent } from '@testing-library/react';
 import React,{useEffect,useState,useContext} from 'react';
 import { FirebaseContext } from '../../store/Context';
 import { PostContext } from '../../store/PostContext';

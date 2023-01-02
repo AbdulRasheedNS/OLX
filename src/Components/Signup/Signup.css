@@ -8,7 +8,9 @@
     transform: translate(-50%, -50%);
     border-radius: 6px;
   }
-  
+  .signupParentDiv p{
+    text-align: center;
+  }
   .signupParentDiv .input {
     border-top-color: transparent;
     border-left-color: transparent;
