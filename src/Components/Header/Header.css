@@ -4,6 +4,8 @@
   position: fixed;
   width: 100vw;
   z-index: 999;
+  padding-right: 5rem;
+  padding-left: 5rem;
 }
 
 .headerChildDiv {
@@ -94,8 +96,6 @@
   margin-right: 5px;
 }
 
-.language svg {
-}
 
 .span {
   text-decoration: none;
@@ -149,6 +149,9 @@
   font-weight: 700;
   letter-spacing: 0.5px;
   color: #002f34;
+}
+.brandName{
+  cursor: pointer;
 }
 
 /* .sellMenu .sellMenuContent svg {

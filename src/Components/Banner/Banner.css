@@ -6,6 +6,8 @@
 .bannerParentDiv .bannerChildDiv .menuBar {
   display: flex;
   padding: 10px 16px 10px 16px;
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 .bannerParentDiv .bannerChildDiv .menuBar span {
@@ -17,6 +19,7 @@
 }
 
 .bannerParentDiv .bannerChildDiv .menuBar .otherQuickOptions {
+  padding-left: 1rem;
 }
 .bannerParentDiv .bannerChildDiv .menuBar .otherQuickOptions span {
   padding: 10px;

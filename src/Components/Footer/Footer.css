@@ -7,6 +7,8 @@
   align-items: center;
   background: #ebeeef;
   padding: 16px;
+  padding-right: 7rem;
+  padding-left: 5rem;
 }
 .footerParentDiv .content .heading {
   font-size: 24px;
@@ -20,6 +22,8 @@
   padding: 10px;
   background: #002f34;
   color: whitesmoke;
+  padding-right: 7rem;
+  padding-left: 5rem;
 }
 
 .footerParentDiv .footer p {

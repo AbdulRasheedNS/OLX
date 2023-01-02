@@ -7,18 +7,18 @@ function Banner() {
     <div className="bannerParentDiv">
       <div className="bannerChildDiv">
         <div className="menuBar">
-          <div className="categoryMenu">
+          <div className="categoryMenu row">
             <span>ALL CATEGORIES</span>
             <Arrow></Arrow> 
           </div>
           <div className="otherQuickOptions">
             <span>Cars</span>
-            <span>Motorcy...</span>
-            <span>Mobile Ph...</span>
-            <span>For Sale:Houses & Apart...</span>
-            <span>Scoot...</span>
-            <span>Commercial & Other Ve...</span>
-            <span>For Rent: House & Apart...</span>
+            <span>Motorcycle</span>
+            <span>Mobile Phone</span>
+            <span>For Sale:Houses & Apartments</span>
+            <span>Scooters</span>
+            <span>Commercial & Other Vehicles</span>
+            <span>For Rent: House & Apartments</span>
           </div>
         </div>
         <div className="banner">
