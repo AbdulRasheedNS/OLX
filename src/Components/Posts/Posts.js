@@ -22,7 +22,7 @@ function Posts() {
       })
       setProducts(allPost)
     })
-  },[])
+  },[firebase]);
 
   return (
     <div className="postParentDiv">

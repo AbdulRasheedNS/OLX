@@ -1,20 +1,20 @@
-import React,{useEffect,useState,useContext} from 'react';
+import React, { useEffect, useState, useContext } from 'react';
 import { FirebaseContext } from '../../store/Context';
 import { PostContext } from '../../store/PostContext';
 
 import './View.css';
 function View() {
   const [userDetails, setUserDetails] = useState()
-  const {postDetails}=useContext(PostContext)
-  const {firebase} = useContext(FirebaseContext)
-  useEffect(()=>{
-    const {userId} = postDetails
-    firebase.firestore().collection('id','==',userId).get().then((res)=>{
-      res.foreEach(doc=>{
-        setUserDetails(doc.data())
+  const { postDetails } = useContext(PostContext)
+  const { firebase } = useContext(FirebaseContext)
+  useEffect(() => {
+      const { userId } = postDetails
+      firebase.firestore().collection('id', '==', userId).get().then((res) => {
+        res.foreEach(doc => {
+          setUserDetails(doc.data())
+        })
       })
-    })
-  },[])
+  }, [firebase,postDetails])
   return (
     <div className="viewParentDiv">
       <div className="imageShowDiv">
