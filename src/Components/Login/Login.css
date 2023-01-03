@@ -10,6 +10,7 @@
   }
   .loginParentDiv p{
     text-align: center;
+    cursor: pointer;
   }
   
   .loginParentDiv .input {

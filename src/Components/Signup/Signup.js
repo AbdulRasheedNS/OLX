@@ -26,6 +26,9 @@ const handleSubmit=(e)=>{
     })
   })
 }
+const pushToLogin=()=>{
+  history.push('/login')
+}
 
   return (
     <div>
@@ -83,7 +86,7 @@ const handleSubmit=(e)=>{
           <br />
           <button>Signup</button>
         </form>
-        <p>Login</p>
+        <p onClick={pushToLogin}>Login</p>
       </div>
     </div>
   );

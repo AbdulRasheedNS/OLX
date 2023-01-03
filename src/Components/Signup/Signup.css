@@ -10,6 +10,7 @@
   }
   .signupParentDiv p{
     text-align: center;
+    cursor: pointer;
   }
   .signupParentDiv .input {
     border-top-color: transparent;

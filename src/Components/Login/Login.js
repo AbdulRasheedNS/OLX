@@ -17,6 +17,9 @@ function Login() {
       alert(error.message)
     })
   }
+  const pushToSignup=()=>{
+    history.push('/signup')
+  }
   return (
     <div>
       <div className="loginParentDiv">
@@ -49,7 +52,7 @@ function Login() {
           <br />
           <button>Login</button>
         </form>
-        <p>Signup</p>
+        <p onClick={pushToSignup}>Signup</p>
       </div>
     </div>
   );
