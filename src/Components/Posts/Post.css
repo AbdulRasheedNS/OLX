@@ -36,7 +36,7 @@
   padding: 13px;
   max-width: 222px;
   width: 222px;
-  height: 270px;
+  height: 280px;
   display: inline-block;
   cursor: pointer;
 }
@@ -76,7 +76,6 @@
   justify-content: flex-end;
   font-size: small;
 }
-
 .recommendations {
   margin: 16px 16px 24px;
 }
