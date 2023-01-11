@@ -21,7 +21,7 @@ const handleSubmit=(e)=>{
         username:username,
         phone:phone
       }).then(()=>{
-        history.push('/login')
+        history.push('/')
       })
     })
   })
@@ -44,47 +44,47 @@ const pushToLogin=()=>{
             onChange={(e)=>setUsername(e.target.value)}
             id="fname"
             name="name"
-            defaultValue="John"
+            defaultValue="Userr"
           />
           <br />
-          <label htmlFor="fname">Email</label>
+          <label htmlFor="email">Email</label>
           <br />
           <input
             className="input"
             type="email"
             value={email}
             onChange={(e)=>setEmail(e.target.value)}
-            id="fname"
+            id="email"
             name="email"
-            defaultValue="John"
+            defaultValue="user@gmail.com"
           />
           <br />
-          <label htmlFor="lname">Phone</label>
+          <label htmlFor="phone_number">Phone</label>
           <br />
           <input
             className="input"
-            type="number"
+            type="tel"
             value={phone}
             onChange={(e)=>setPhone(e.target.value)}
-            id="lname"
+            id="phone_number"
             name="phone"
-            defaultValue="Doe"
+            defaultValue="9876543210"
           />
           <br />
-          <label htmlFor="lname">Password</label>
+          <label htmlFor="password">Password (atleast 6 characters)</label>
           <br />
           <input
             className="input"
             type="password"
             value={password}
             onChange={(e)=>setPassword(e.target.value)}
-            id="lname"
+            id="password"
             name="password"
-            defaultValue="Doe"
+            defaultValue="123"
           />
           <br />
           <br />
-          <button>Signup</button>
+          <button onClick={handleSubmit}>Signup</button>
         </form>
         <p onClick={pushToLogin}>Login</p>
       </div>

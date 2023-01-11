@@ -31,6 +31,7 @@ function Login() {
             className="input"
             type="email"
             value={email}
+            placeholder='user@gmail.com'
             onChange={(e)=>setEmail(e.target.value)}
             id="fname"
             name="email"
@@ -43,6 +44,7 @@ function Login() {
             className="input"
             type="password"
             value={password}
+            placeholder='123456'
             onChange={(e)=>setPassword(e.target.value)}
             id="lname"
             name="password"
