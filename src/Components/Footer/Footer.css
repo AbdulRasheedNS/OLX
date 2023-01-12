@@ -9,6 +9,7 @@
   padding: 16px;
   padding-right: 7rem;
   padding-left: 5rem;
+  width: 100%;
 }
 .footerParentDiv .content .heading {
   font-size: 24px;
@@ -24,6 +25,7 @@
   color: whitesmoke;
   padding-right: 7rem;
   padding-left: 5rem;
+  width: 100%;
 }
 
 .footerParentDiv .footer p {
