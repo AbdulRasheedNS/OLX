@@ -29,13 +29,12 @@ function Posts() {
       <div className="moreView">
         <div className="heading">
           <span>Quick Menu</span>
-          <span>View more</span>
         </div>
         <div className="cards row pl-4">
           {products.map(product => {
             return (
               <div
-                className="card col-lg-3 col-md-3 col-sm-5 col-xs-6"
+                className="card col-lg-3 col-md-3 col-5"
                 onClick={() => {
                   setPostDetails(product)
                   history.push('/view')
@@ -69,7 +68,7 @@ function Posts() {
           {products.map(product => {
             return (
               <div
-                className="card col-lg-3 col-md-3 col-sm-5 col-xs-6"
+                className="card col-lg-3 col-md-3 col-5"
                 onClick={() => {
                   setPostDetails(product)
                   history.push('/view')

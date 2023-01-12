@@ -5,10 +5,11 @@
 .viewParentDiv .imageShowDiv {
   padding: 16px;
   width: 70vw;
+  align-items: center;
 }
 .viewParentDiv .imageShowDiv img {
-  width: 65vw;
-  height: 85vh;
+  width: 25rem;
+  align-items: center;
 }
 
 .viewParentDiv .rightSection {
