@@ -81,8 +81,9 @@
 }
 
 .postParentDiv{
-  /* padding-right: 5rem;
-  padding-left: 5rem; */
-  margin-right: 5%;
-  margin-left: 5%;
+  padding-right: 5%;
+  padding-left: 5%;
+  width: 100%;
+  /* margin-right: 5%;
+  margin-left: 5%; */
 }

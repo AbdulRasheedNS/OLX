@@ -26,9 +26,9 @@ function Posts() {
 
   return (
     <div className="postParentDiv">
-      <div className="moreView">
+      <div className="recommendations">
         <div className="heading">
-          <span>Quick Menu</span>
+          <span>Fresh recommendations</span>
         </div>
         <div className="cards row pl-4">
           {products.map(product => {
@@ -60,9 +60,9 @@ function Posts() {
           }
         </div>
       </div>
-      <div className="recommendations">
+      <div className="moreView">
         <div className="heading">
-          <span>Fresh recommendations</span>
+          <span>Menu</span>
         </div>
         <div className="cards row pl-4">
           {products.map(product => {
