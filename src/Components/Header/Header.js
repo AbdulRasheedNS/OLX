@@ -13,7 +13,7 @@ function Header() {
   const {user} = useContext(AuthContext)
   const {firebase} = useContext(FirebaseContext)
   const pushToCreate =()=>{
-    {user?history.push('/create'):history.push('/login')}
+    user?history.push('/create'):history.push('/login')
   }
   return (
     <div className="headerParentDiv">
